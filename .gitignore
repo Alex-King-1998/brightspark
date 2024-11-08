@@ -1,0 +1,19 @@
+# Ignore Python cache and virtual environment
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+.venv/
+.env/
+
+# Ignore log files
+cli_tool.log
+
+# Ignore distribution files
+dist/
+build/
+
+# Ignore IDE/editor files
+.vscode/
+.idea/
+*.swp
