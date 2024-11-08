@@ -22,14 +22,6 @@
 - Python 3.6+
 - [pip](https://pip.pypa.io/en/stable/installation/)
 
-### Install from PyPI
-
-Install this tool directly from PyPI:
-
-```bash
-pip install bright-spark-cli-tool
-```
-
 ### Install from Source
 1. Clone the repository from GitHub:
 
@@ -54,11 +46,11 @@ pip install .
 Once installed, you can run the tool using the command:
 
 ```bash
-cli_tool
+python .\cli_tool.py
 ```
 
 ### Interactive Mode
-When you run **cli_tool**, it will prompt you to:
+When you run **python .\cli_tool.py**, it will prompt you to:
 1. Enter the path to your CSV file.
 2. Specify the number of top records to display (default is 3).
 3. Choose the output format (YAML or JSON).
